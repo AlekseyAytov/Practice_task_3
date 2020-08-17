@@ -7,24 +7,138 @@
     <link rel="icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <div class="promo">
-        <header class="header">
-            <a href="#" class="header__logo">
-                <img src="img/icons/running-man-2-64.png" alt="logo">
-            </a>
-            <div class="header__official">
-                Официальный представитель<br>
-                <span>Garmin, Polar, Suunto</span>
+        <div class="container">
+            <header class="header">
+                <a href="owl_test.html" class="header__logo">
+                    <img src="img/icons/running-man-2-64.png" alt="logo">
+                </a>
+                <div class="header__official">
+                    Официальный представитель<br>
+                    <span>Garmin, Polar, Suunto</span>
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                    <button class="button">заказать звонок</button>
+                </div>
+            </header>
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="img/icons/timer.png" alt="timer">
+                        Время подбора: 10 минут
+                    </div>
+                    <div class="promo__icon">
+                        <img src="img/icons/hand-cart.png" alt="hand-cart">
+                        Бесплатная доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="img/icons/messages.png" alt="messages">
+                        Ответим на все вопросы
+                    </div>
+                </div>
+                <button class="button _main-button">заказать кОНСУЛЬТАЦИЮ</button>
+                <div class="promo__link">
+                    или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
             </div>
-            <div class="header_contacts">
-                <a href="tel:+74999228974" class="header_phone">+7 (499) 922-89-74</a>
-                <button class="button">заказать звонок</button>
-            </div>
-        </header>
+        </div>
     </div>
+
+    <div class="second-block">
+        <div class="container">
+            <div class="second-block__header">
+                НАШИ ПРЕИМУЩЕСТВА
+            </div>
+            <div class="second-block__wrapper">
+                <div class="second-block__items">
+                    <img src="img/icons/cup.png" alt="cup">
+                    <div class="second-block__item"><span>Делимся опытом</span>Наши сотрудники всегда готовы поделиться своим опытом, 
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                </div>
+                <div class="second-block__items">
+                    <img src="img/icons/heart.png" alt="heart">
+                    <div class="second-block__item"><span>Заботимся о здоровье</span>Мы работаем для того, 
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                        </div>
+                </div>
+                <div class="second-block__items">
+                    <img src="img/icons/shoe.png" alt="shoe">
+                    <div class="second-block__item"><span>Учим бегать</span>Помогаем с обучением 
+                        правильной технике бега! 
+                        Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="consultation">
+        <div class="container">
+            <h2 class="title title_left">Получите бесплатную консультацию
+                по подбору пульсометра </h2>
+            <div class="consultation__descr">Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
+                <button>заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/icons/slider_1.png" alt="slider-1">
+                </div>
+                <div>
+                    <img src="img/icons/slider_2.png" alt="slider-2">
+                </div>
+                <div>
+                    <img src="img/icons/slider_3.png" alt="slider-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- <nav class="mobile-menu">
+        <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+        <label for="checkbox" class="mobile-menu__btn">
+            <div class="mobile-menu__icon"></div>
+        </label>
+        <div class="mobile-menu__container">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">About us</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Work</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Contacts</a>
+            </li>
+        </ul>
+        </div>
+    </nav> -->
+
 </body>
 </html>
 
